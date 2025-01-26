@@ -3,11 +3,11 @@
 
 from os import getenv
 
-API_ID = int(getenv("24954614", ""))
-API_HASH = getenv("854d71e266722a054d214898c754c70b", "")
-BOT_TOKEN = getenv("8008338461:AAHkro3WBkBuyJhnEo-BJHr6kEF8jZ8UwIw", "")
+API_ID = int(getenv("", ""))
+API_HASH = getenv("", "")
+BOT_TOKEN = getenv("", "")
 OWNER_ID = list(map(int, getenv("5716292248", "").split()))
-MONGO_DB = getenv("mongodb+srv://jeetnarayantiwari5:FGXfMWTnAsaEB4u2@cluster0.2whtu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
+MONGO_DB = getenv("", "")
 LOG_GROUP = getenv("2450739959", "")
 CHANNEL_ID = int(getenv("2486152287", ""))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "30"))
